@@ -7,3 +7,25 @@ h1 {
         color: blue;
     }
 }
+
+p {
+    background-color: burlywood;
+    color: rebeccapurple;
+}
+
+@media screen and (min-width: 600px) {
+    p{
+        color: greenyellow;
+        background-color: aqua;
+    }
+}
+
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape){
+    h3 {
+        display: block;
+    }
+}
